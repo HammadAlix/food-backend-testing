@@ -1,0 +1,45 @@
+# Node modules
+**/node_modules/
+
+# Build output
+**/dist/
+**/build/
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# React specific
+*.cache/
+*.eslintcache
+
+# Optional: Ignore coverage reports
+coverage/
+
+# Optional: Ignore database dumps
+*.sql
+*.sqlite
+
+# Optional: Ignore uploads or static assets
+uploads/
+public/static/
